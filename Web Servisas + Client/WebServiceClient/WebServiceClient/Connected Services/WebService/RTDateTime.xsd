@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://main/" targetNamespace="http://main/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getDateTime" type="tns:getDateTime" />
+  <xs:element name="getDateTimeResponse" type="tns:getDateTimeResponse" />
+  <xs:complexType name="getDateTime">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getDateTimeResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
